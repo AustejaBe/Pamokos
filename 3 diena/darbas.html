@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenteles</title>
+    <!-- :nth child() psedo klases selektorius
+
+
+        thead tr th{
+            text-align: left;
+            background: pink
+        }-->
+
+        <!--kas antras
+        
+        tbody tr:nth-child(2n){
+            background: red;
+        } 
+        odd nelyginis 
+         Id selektoriai ima virsu su #
+        odd nellyginis
+        even lyginis
+        important nurodo visu selektoriu perrasyma -->
+    <style>
+
+
+        tbody tr:nth-child(2n){
+            background: red;
+        }
+
+        #TreciaEilute {
+            background-color: green;
+
+        }
+
+        tbody tr {
+            background: violet   
+
+    
+        }
+    </style>
+    <!--Internal css <style>-->
+</head>
+<body>
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Preke</th>
+                <th>Kiekis</th>
+                <th>Kaina</th>
+                <th>Suma</th>
+
+            </tr>
+
+        </thead>
+            <tr>
+                <td>1</td>
+                <td>Kompiuteris</td>
+                <td>10</td>
+                <td>200</td>
+                <td>600</td>
+
+            </tr>
+             <tr>
+                 <td>2</td>
+                <td>Kompiuteris</td>
+                <td>10</td>
+                <td>200</td>
+                <td>600</td>
+
+            </tr>
+            <!-- inline stilius visada pritaikomas su viena islyga -->
+             <tr id="TreciaEilute" style="background: yellow">
+                <td>3</td>
+                <td>Kompiuteris</td>
+                <td>10</td>
+                <td>200</td>
+                <td>600</td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kompiuteris</td>
+                <td>10</td>
+                <td>200</td>
+                <td>600</td>
+
+            </tr>
+
+
+    </table>
+    
+</body>
+</html>

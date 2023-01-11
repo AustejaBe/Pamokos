@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin ir padding</title>
+
+<style>
+        .box {
+            width: 250px;
+            height: 250px;
+            background: orange;
+        }
+/*
+        .margin {
+            margin: 15px;
+            margin-bottom: 15px;
+        }
+*/      
+        .margin {
+            margin: 30px 80px 80px 15px;
+            /* Jeigu nurodoma tik viena reiksme-savybe visoms krastinems, 2- pirmoji virsus apaci, antroji kaire desine, 
+            jeigu 3 pirmoji virsus, antroji kaire desine, trecioji apacia */
+            margin: 15px 30px;
+        }
+
+        .padding {
+            padding: 30px;
+            box-sizing: border-box;           /*  kad plotis butu toks koks box nurodytas */
+        
+
+        }
+
+
+</style>
+</head>
+<body>
+    <div class="box margin"></div>
+    <div class="box padding"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A totam minima commodi cumque eveniet doloribus nulla, culpa, fugiat dolorum reiciendis, pariatur eum in enim sapiente iste nobis ipsam adipisci cupiditate!</div>
+</body>
+</html>
