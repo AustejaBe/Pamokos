@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="new Description">
+    <meta name="keywords" content="list all keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Game console</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="tv" class="tv">
+            <img src="./img/tv.png" alt="tv screen">
+            <div id="screen" class="screen">
+                <div id="view" class="view off">
+                    <div class="home">
+                        <h1 class="home-msg"></h1>
+                        <ul>
+                            <li><span class="icon"><img src="./img/icons8-xbox-32.png" alt="icon"> </span> On/OFF</li>
+                            <li><span class="icon yellow">Y</span> TV mode</li>
+                            <li class="active"><span class="icon red">B</span> Home</li>
+                            <li><span class="icon blue">X</span> Game shop</li>
+                            <li><span class="icon green">A</span> Google</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="joystick" class="joystick">
+            <img src="./img/joystick.jpeg" alt="joystick">
+            <div id="buttons" class="btn-container">
+                <button data-action="onOff" class="btn btn-top">ON/OF TV</button>
+                <button data-action="goTv" class="btn btn-y">TV program</button>
+                <button data-action="goBack" class="btn btn-b">Back to home screen</button>
+                <button data-action="goShop" class="btn btn-x">Games shop</button>
+                <button data-action="goGoogle" class="btn btn-a">Google</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+
+</html>
